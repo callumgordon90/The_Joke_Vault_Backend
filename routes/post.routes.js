@@ -4,7 +4,7 @@ const multer = require("multer");
 const upload = multer();
 
 
-//CRUD ENDPOINTS:
+//List of CRUD ENDPOINTS:
 
 //Get a post:
 router.get('/', postController.readPost);
